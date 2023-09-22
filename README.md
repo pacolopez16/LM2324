@@ -1,2 +1,7 @@
 # LM2324
-Este repositorio es para subir todas las tareas de Lenguaje de Marcas
+## Tema1. Instalación de programas. Preparación entorno de trabajo
+
+En este tema vamos a instalar los principales programas con los que vamos a trabajar durante el curso:
+
+- git
+- Visual Studio Code
