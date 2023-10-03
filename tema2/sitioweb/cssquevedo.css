@@ -1,0 +1,55 @@
+
+.contenedor {
+  display: flex;
+  background-color: royalblue;
+  flex-direction: row;
+}
+
+.bibliografia{
+    width: 90%;
+    background-color: goldenrod;
+  color: white;
+  margin: 10px;
+  text-align: center;
+
+  font-size: 27px;
+  
+}
+
+.temaslanzados{
+    width: 87%;
+    background-color: goldenrod;
+  color: white;
+  margin: 10px;
+  text-align: center;
+
+  font-size: 27px;
+  
+
+}
+.cancion{
+
+    margin-right: 10px;
+}
+
+
+
+img{
+    margin: 10px;
+    width: 98%;
+    height: 97%;
+    
+    
+}
+
+body{
+
+    background-color:royalblue ;
+}
+
+.quevedo{
+
+  color: whitesmoke;
+  text-align: center;
+
+}
