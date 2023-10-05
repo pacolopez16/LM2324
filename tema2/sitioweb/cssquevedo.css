@@ -7,7 +7,7 @@
 
 .bibliografia{
     width: 90%;
-    background-color: goldenrod;
+    background-color: #45B39D ;
   color: white;
   margin: 10px;
   text-align: center;
@@ -17,11 +17,12 @@
 }
 
 .temaslanzados{
-    width: 87%;
-    background-color: goldenrod;
+    width: 90%;
+    background-color: #45B39D ;
   color: white;
   margin: 10px;
-  text-align: center;
+  text-align: justify;
+  padding-right: 30px;
 
   font-size: 27px;
   
@@ -44,12 +45,36 @@ img{
 
 body{
 
-    background-color:royalblue ;
+    background-color:#85929E  ;
 }
 
 .quevedo{
 
   color: whitesmoke;
   text-align: center;
+
+}
+
+h2{
+
+  text-align: center;
+
+}
+
+h3{
+
+  text-align: center;
+
+}
+
+.footer{
+  text-align: center;
+  
+
+}
+
+.audio{
+
+  align-items: center;
 
 }
