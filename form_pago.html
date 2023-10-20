@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pago</title>
+</head>
+<body>
+    <form action="form_pago.php">
+
+    <fieldset>
+        <p><b>FORMULARIO DE PAGO</b> (Los campos obligatorios se han marcado con *)</p>
+
+        <fieldset>
+        <legend><b>Información de contacto</b></legend>
+        <fieldset>
+            <legend>Profesión</legend>
+
+            <p><input type="radio" id="prof" name="prof" value="Profesor/a">
+            <label for="prof"> Profesor/a</label></p>
+
+            <p><input type="radio" id="estud" name="estud" value="estud">
+            <label for="estudiante">Estudiante</label></p>
+
+            <p><input type="radio" id="otro" name="otro" value="otro">
+            <label for="otro">Otro</label></p>
+
+        
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Tratamiento</legend>
+
+            <p><input type="radio" id="senor" name="senor" value="senor">
+            <label for="senores">Sr/Sra</label></p>
+
+            <p><input type="radio" id="directores" name="directores" value="directores">
+            <label for="Dr/Dra">Dr/Dra</label></p>
+
+            <p><input type="radio" id="otros" name="otros" value="otros">
+            <label for="otros">Otro</label></p>
+
+        </fieldset>
+
+        <p><label for="name">Nombre:*</label>
+        <input type="text" required style="width: 99%" id="name" name="name"></p>
+
+        <p><label for="email">Correo:*</label>
+        <input type="email" required style="width: 99%" id="email" name="email"></p>
+
+        <p><label for="tlf">Número de teléfono:*</label>
+        <input type="number" required style="width: 99%" id="number" name="number"></p>
+
+        <p><label for="passw">Contraseña:*</label>
+        <input type="password" required style="width: 99%" id="password" name="password"></p>
+
+        </fieldset>
+        
+        <fieldset>
+            <legend>Información de pago</legend>
+
+            <p><label for="tlf">Tipo de tarjeta:</label>
+            <select>
+
+                <option name="tipotarj" value="VISA">VISA</option>
+                <option name="tipotarj2" value="Mastercard">Mastercard</option>
+                <option name="tipotarj3" value="AmericanExpres">American Express</option>
+            </select>
+
+            <p><label for="numb">Número de tarjeta:*</label>
+            <input type="number" required style="width: 99%" id="number" name="number"></p>
+
+            <p><label for="fecha">Fecha de caducidad:*</label>
+            <input type="date" required style="width: 99%" id="date" name="date"></p>
+
+            <p><label for="name">Cuenta de paypal:*</label>
+            <input type="text" required style="width: 99%" id="paypal" name="paypal"></p>
+
+            <p><label for="fav">Método de pago preferido:</label>
+            <select>
+
+                <option name="tipo" value="Tarjeta de crédito">Tarjeta de crédito</option>
+                <option name="tipo2" value="Paypal">Paypal</option>
+               
+            </select>
+
+
+
+
+
+        </fieldset>
+
+
+            
+    </fieldset>
+
+    <p><button type="submit" style="background-color: black;color: white;">Validar el pago</button></p>
+    
+
+    </fieldset>
+    </form>
+    
+</body>
+</html>
