@@ -32,6 +32,10 @@ a{
     text-decoration: none;
 }
 
+a:hover{
+    cursor: no-drop;
+}
+
 .texto{
     width: 60%;
     height: 679px;
