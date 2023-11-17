@@ -1,0 +1,22 @@
+body{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+header{
+    background-color: #b28306;
+    border-radius: 20px;
+    text-align: center;
+    width: 100%;
+}
