@@ -1,16 +1,39 @@
 body{
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-position-x: center;
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+
 }
 
 .container{
     display: flex;
     justify-content: center;
+    width: 75%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
 }
 
 nav{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #ebcd7c;
+    border-radius: 20px;
+    width: 100%;
+    height: 30px;
+    
+    
+
+}
+
+nav a{
+    text-decoration: none;
 
 }
 
@@ -19,4 +42,113 @@ header{
     border-radius: 20px;
     text-align: center;
     width: 100%;
+    border-bottom: 1px solid black;
+    
 }
+
+
+
+.enlaces{
+    margin: auto;
+    background-color: #4c3803;
+    border-radius: 20px ;
+    padding-right: 50px ;
+    padding-left: 50px
+    
+}
+
+.enlaces a{
+
+    color: #b28306;
+    
+
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Geneva', 'sans-serif';
+}
+
+aside{
+    width: 25%;
+    background-color: #b28306;
+    border-radius: 20px;
+    padding: 5px;
+    box-sizing: border-box;
+    
+   
+   
+
+}
+
+
+
+main{
+    width: 75%;
+    padding-top: 20px;
+
+}
+p::first-letter{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
+.parrafonombre{
+    color: grey;
+}
+
+footer{
+    width: 100%;
+    border-top: 7px solid black;
+}
+
+@media only screen and (max-width: 600px) {
+    .container{
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+
+    header{
+
+        order: 1;
+    }
+
+    nav{
+        order: 4;
+    }
+
+    .enlaces{
+        padding: 5px;
+    }
+
+    main{
+        width: 100%;
+        order: 2;
+    }
+
+    aside{
+        width: 100%;
+        order: 3;
+    }
+
+    footer{
+        border: 0px;
+        order: 5;
+    }
+
+
+    }
+
+    .enlaces a:hover{
+       cursor:zoom-in;
+        color: red;
+    }
