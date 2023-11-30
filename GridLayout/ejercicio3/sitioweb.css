@@ -1,0 +1,51 @@
+body{
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    font-family: Arial;
+   
+
+}
+
+
+.container{
+
+    display: grid;
+    box-sizing: border-box;
+    width: 80%;
+    margin: auto;
+    width: 80%;
+    height: 84vh;
+    padding: 20px;
+    border: 2px dashed black;
+    grid-template-columns: auto auto;
+    grid-template-rows: 10% 20% auto 10%;
+    
+}
+
+header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 4px solid black;
+    background-color: aqua;
+    
+    
+}
+nav{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border: 4px solid black;
+    background-color:blanchedalmond;
+}
+
+article{
+    background-color: lightsalmon;
+    border: 4px solid black;
+}
+
+aside{
+    background-color: darkcyan;
+    border: 4px solid black;
+}
+footer{
+    text-align: center;
+}
