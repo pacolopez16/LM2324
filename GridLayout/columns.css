@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+
+    display: grid;
+    box-sizing: border-box;
+    width: 80%;
+    grid-template-columns: auto auto auto;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgreen;
+}
+
+div{
+
+    border:  4px solid black;
+    background-color: lightgrey;
+    text-align: center;
+     line-height: 150px;
+    
+}
+
+.caja1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: lightblue;
+}
+
+.caja2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color:lemonchiffon;
+}
+
+.caja3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: salmon;
+}
+
+.caja11{
+    grid-column-start: 2 ;
+    grid-column-end: 4;
+}
+
+.caja12{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    background-color: darkcyan;
+}
