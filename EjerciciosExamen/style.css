@@ -1,0 +1,86 @@
+.container{
+    display: flex;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    border-radius: 10px ;
+    background-color: darkgrey;
+    padding: 4px;
+    color: white;
+    margin: 20;
+    padding: 20px;
+    border: solid whitesmoke 2px;
+    
+
+}
+
+body{
+    background-color: white;
+    font-family: "Century Gothic", 'helvetica', 'arial', 'sans-serif';
+    font-size: 1.1em;
+    height: 100vh;
+
+
+}
+
+html{
+    display: flex;
+    flex-direction: column;
+}
+
+h2{
+    color: white;
+}
+
+.parteder{
+    background-color: darkolivegreen;
+    width: 80%;
+   color: white;
+    margin: 20;
+    padding: 20px;
+    border: solid whitesmoke 2px;
+    
+    
+}
+
+.parteizq{
+    width: 20%;
+    background-color: darkcyan;
+    margin: 20;
+    padding: 20px;
+    border: solid whitesmoke 2px;
+    
+}
+
+img{
+    border-radius: 2vh ;
+    border: solid goldenrod 5px;
+    float: left;
+    margin-right: 20px;
+
+}
+p::first-letter{
+    font-size: 200%;
+    color: darkgrey;
+}
+
+nav a{
+    cursor: progress;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: white;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.3);
+}
+
+footer{
+    margin: 20;
+    padding: 20px;
+    border: solid whitesmoke 2px;
+    text-align: center;
+   padding: 20px;
+   background-color: goldenrod;
+   color: white;
+}
+
