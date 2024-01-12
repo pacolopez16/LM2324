@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+
+
+
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.container{
+    display: grid;
+    max-width: 850px;
+    margin: auto;
+    padding-left: 60px;
+    padding-right: 60px;
+    grid-template-columns: 1fr 3fr;
+}
+
+header{
+    display: grid;
+    color: #908d8d;
+    
+}
+
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    color: #434344;
+    background-color: #eee;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    justify-content: center;
+    
+    
+}
+
+nav a{
+    cursor: pointer;
+    color: #434344;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+
+
+img{
+    border-radius: 30px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    border: 50px;
+    background-color: #0d6427;
+    color: white;
+    text-decoration: none;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer p{
+    color: white;
+}
+
+
+
+
+.inicio{
+margin-right: 15px;
+}
+
+.contacto{
+
+    margin-right: 15px;
+}
+ul{
+    list-style-type: none;
+    margin-top: 1rem;
+    font-size: .75rem;
+}
+
+button{
+    border-radius: 1.25em;
+    border: none;
+    padding: 20px;
+    width: 40%;
+    background-color: #0d6427;
+    justify-content: right;
+    color: white;
+    
+
+}
+
+.enlaces a{
+    text-decoration: none;
+}
+
+h2{
+    color: #ada70a;
+    font-size: 32px;
+}
+
+.parteprincipal{
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.enlaces{
+    display: grid;
+    padding: 20px;
+    border-top: 3px solid #0d6427;
+    background-color: #f9f9f9;
+}
+
+@media only screen and (max-width: 760px) {
+
+    .container{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+
+    header{
+        grid-row-start: 1;
+        grid-row-end: 2
+    }
+
+    footer{
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+
+};
+

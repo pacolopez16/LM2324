@@ -1,0 +1,51 @@
+body{
+    color: black;
+    font-size: 200%;
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+form{
+    display: flex;
+    width: 80%;
+    position: absolute;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    justify-content: center;
+}
+
+input{
+    color: black;
+   border: none;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+   background-color: #E6E6E6;
+   flex-basis: 300px;
+}
+
+::placeholder{
+    font-size: 200%;
+}
+
+button{
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #3759e2;
+    color: #fff;
+    box-shadow: 8px 8px 8px 8px rgba(226, 209, 12, 0.35);
+    margin: 10px;
+    flex-basis: 200px;
+}
+
+input:hover {
+    outline: 5px solid #3759e2;
+}
+
+input:focus{
+    outline: 5px solid #3759e2;
+}
