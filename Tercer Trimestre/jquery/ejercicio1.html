@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+        
+        $("#ocultar").click(function () {
+            $("h1,p").hide();
+        })
+        
+        });
+
+
+        $(document).ready(function () {
+            $("#mostrar").click(function() {
+                $("h1,p").show();
+        })
+        });
+    </script>
+</head>
+<body>
+
+    <h1>Documento ejercicio 1</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, consequatur. Sed quibusdam iure mollitia, excepturi vero non facilis amet animi eligendi fugiat modi delectus, minus ea! Odit possimus dolorum unde!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio quas hic maxime et a delectus, ipsum, quia ipsa rem alias temporibus error autem ratione quod explicabo facere adipisci assumenda quisquam.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus ad ipsum sint natus quo, sit quisquam omnis at odit tempore error veniam velit ut voluptas, dolor ratione, doloribus ab cum!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque sed nihil, incidunt fuga officia optio! Praesentium hic deleniti similique ut placeat a dolore sit nostrum eum vitae, ipsa debitis quaerat.</p>
+    
+
+    <button id="ocultar">Ocultar</button>
+    <button id="mostrar">Mostrar</button>
+</body>
+</html>
