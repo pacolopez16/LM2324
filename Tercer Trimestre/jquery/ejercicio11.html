@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11 JQuery</title>
+    <script src="jquery1.js"></script>
+    <style>
+        body{
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
+        #cosa{
+            background-color: black;
+            text-align: center;
+            width: 50%;
+            height: 200px;
+            margin: auto;
+        }
+        p{
+            color: white;
+            margin: 0;
+        }
+        button{
+            width: 300px;
+        }
+    </style>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function(){
+                $("#cosa").empty();
+            });
+        });
+    </script>
+</head>
+<body>
+    <div id="cosa">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus similique ipsa reiciendis, quasi veritatis sit minima architecto deserunt molestiae ullam necessitatibus, laborum nihil quae placeat eligendi amet illo deleniti ducimus?</p>
+    </div>
+    <button>Vaciar</button>
+    
+</body>
+</html>
